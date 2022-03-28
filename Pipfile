@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+allure-pytest = "==2.8.40"
+selenium = "==4.0.0.b3"
+allure-python-commons = "==2.8.40"
+py = "==1.10.0"
+pytest-ordering = "==0.6"
+requests = "==2.25.1"
+webdriver-manager = "==3.3.0"
+pre-commit = "==2.12.1"
+pytest-xdist = "*"
+pytest-rerunfailures = "==10.0"
+pytest-testrail = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
